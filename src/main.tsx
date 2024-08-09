@@ -20,7 +20,7 @@ const router = createBrowserRouter(
         <Route path="" element={<Dashboard />} />
         <Route path="signup" element={<SignUpPage />} />
         <Route path="login" element={<LoginPage />} />
-        <Route path="send" element={<SendPage />} />
+        <Route path="send/:to/:name" element={<SendPage />} />
       </Route>
     </Route>
   )
